@@ -1,3 +1,10 @@
+variables:
+- group: "traversemonde"
+- name: site
+  value: $[variables.site]
+- name: webflow
+  value: $[variables.webflow]
+
 trigger:
 - main
 
